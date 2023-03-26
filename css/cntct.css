@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: url(../images/mywall.jpg) no-repeat;
+    background-position: absolute;
+    background-size: cover;
+}
+
+nav{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 7%;
+}
+
+.logo{
+    color: burlywood;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.logo:hover{
+  color: #496de5;
+  transition: .6s;
+}
+
+span{
+     color: #496de5;
+     font-style: italic;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    padding-right: 80px;
+}
+
+nav ul li a{
+    color: burlywood;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: #496de5;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav ul li a:hover{
+    color: #496de5;
+    transition: .6s;
+    background-color: #496de5;
+    color: beige;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.box{
+    width:600px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 6%;
+    color: burlywood;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 21px 20px 20px #03030dd1;
+}
+
+.type{
+    margin-bottom: 20px;
+}
+
+.box h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.list-icon{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a{
+    color: burlywood;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+ul li a:hover{
+    color: #496de5;
+    transition: .6s;
+}
+
+.instructor{
+    margin-top: 90px;
+}
