@@ -34,11 +34,6 @@ nav{
     transition: .6s;
   }
 
-span{
-     color: #496de5;
-     font-style: italic;
-}
-
 nav ul li{
     list-style-type: none;
     display: inline-block;
@@ -74,6 +69,7 @@ nav ul li a:hover{
     text-align: center;
     margin: auto;
     margin-top: 3%;
+    margin-bottom: 5%
     color: burlywood;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-shadow: 5px 21px 20px 20px #03030dd1;
